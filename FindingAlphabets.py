@@ -1,7 +1,8 @@
 Input = input("Type something random: \n")
 
-if str(Input) == True:
-    print("This is a String")
-    print("This is your Input:", Input)
+boole = type(Input) is str
+
+if boole == True:
+    print("You typed a string.")
 else:
-    print("This is not a string")
+    print("You did not type a string.")
