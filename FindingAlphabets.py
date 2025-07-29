@@ -1,8 +1,6 @@
-Input = input("Type something random: \n")
-
-boole = type(Input) is str
-
-if boole == True:
-    print("You typed a string.")
+inp = input("Enter a character: ")
+boolean = type(inp) == str
+if boolean == True:
+    print("The input is a alphabet.")
 else:
-    print("You did not type a string.")
+    print("The input is not a alphabet.")
