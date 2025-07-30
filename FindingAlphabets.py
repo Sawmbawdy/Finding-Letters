@@ -1,6 +1,8 @@
-inp = input("Enter a character: ")
-boolean = type(inp) == str
-if boolean == True:
-    print("The input is a alphabet.")
+Input = input("Type something random: \n")
+boole = Input.isalpha()
+
+if boole == True:
+    print("You typed a string.")
 else:
-    print("The input is not a alphabet.")
+    print("This is not a string")
+    print("You did not type a string.")
